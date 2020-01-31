@@ -8,8 +8,10 @@
 
 _This API is a database of words that people hate (e.g. "moist"). Users can rate these words based on a scale of 1-5 through the implementation of emojis. A 1 shows a disgusted emoji whereas a 5 shows a somewhat happier one. Users can POST new words to the API, and their ratings will be averaged with other user ratings for existing words already in the API._
 
-## API Endpoints 
-localhost:5000/api/words
+## API Endpoints and Responses
+ Endpoint: localhost:5000/api/words
+ 
+ Responses: 
 
 ## Setup/Installation Requirements
 For the MVC app: 
