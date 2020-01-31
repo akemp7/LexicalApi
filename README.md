@@ -13,13 +13,14 @@ localhost:5000/api/words
 
 ## Setup/Installation Requirements
 For the MVC app: 
-Clone this repository
-In command line, run: "dotnet ef migrations update" in order to generate the database in MySQL
-Then run the following: "dotnet watch run"
-Navigate to localhost:5000/
+
+* _Clone this repository_
+* _In command line, run: "dotnet ef migrations update" in order to generate the database in MySQL_
+* _Then run the following: "dotnet watch run"_
+* _Navigate to localhost:5000/_
 
 To examine the API itself: 
-One can also navigate to Swagger at: localhost:5000/swagger to see all functionality for this API. 
+* _One can also navigate to Swagger at: localhost:5000/swagger to see all functionality for this API._
 
 ## Support and contact details
 
