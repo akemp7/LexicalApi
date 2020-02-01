@@ -11,7 +11,27 @@ _This API is a database of words that people hate (e.g. "moist"). Users can rate
 ## API Endpoints and Responses
  Endpoint: localhost:5000/api/words
  
- Responses: 
+ Response Example for GET:
+ 
+ ```
+ curl -X GET "http://localhost:5000/api/Words?wordId=2" -H "accept: text/plain"
+ ```
+ 
+ ```
+ ## Request URL
+ http://localhost:5000/api/Words?wordId=2
+ ```
+ ```
+ [
+  {
+    "wordId": 2,
+    "name": "damp",
+    "rating": 1,
+    "ratingCount": 1
+  }
+]
+```
+ 
 
 ## Setup/Installation Requirements
 For the MVC app: 
